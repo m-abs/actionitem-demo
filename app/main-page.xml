@@ -1,0 +1,19 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo">
+  <Page.actionBar>
+    <ActionBar>
+      <ActionBar.actionItems>
+        <ActionItem text="My ActionItem Text"  automationText="AutoText 2" />
+        <ActionItem>
+          <ActionItem.actionView>
+            <Button text="My ActionItem Button" automationText="AutoText" />
+          </ActionItem.actionView>
+        </ActionItem>
+      </ActionBar.actionItems>
+    </ActionBar>
+  </Page.actionBar>
+  <StackLayout>
+    <Label text="Tap the button" class="title" />
+    <Button text="TAP" tap="{{ onTap }}" />
+    <Label text="{{ message }}" class="message" textWrap="true" />
+  </StackLayout>
+</Page>
