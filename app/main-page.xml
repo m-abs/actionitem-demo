@@ -2,10 +2,10 @@
   <Page.actionBar>
     <ActionBar>
       <ActionBar.actionItems>
-        <ActionItem text="My ActionItem Text"  automationText="AutoText 2" />
+	<ActionItem icon="res://x" text="My ActionItem Text"  automationText="AutoText 2" />
         <ActionItem>
           <ActionItem.actionView>
-            <Button text="My ActionItem Button" automationText="AutoText" />
+	    <Button text="My ActionItem Button" automationText="AutoText" />
           </ActionItem.actionView>
         </ActionItem>
       </ActionBar.actionItems>
